@@ -1,0 +1,82 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.bigData {
+    font-size: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: #034c6a;
+}
+
+.p_chart {
+    height: 288px;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+.vux-popup-show { z-index: 2010 !important; }
+.vux-popup-dialog { z-index: 2011 !important; }
+.div_any_child {
+    width: 100%;
+    height: 330px;
+    box-shadow: -10px 0px 15px #034c6a inset, /*Ã¥Â·Â¦Ã¨Â¾Â¹Ã©ËœÂ´Ã¥Â½Â±*/
+    0px -10px 15px #034c6a inset, /*Ã¤Â¸Å Ã¨Â¾Â¹Ã©ËœÂ´Ã¥Â½Â±*/
+    10px 0px 15px #034c6a inset, /*Ã¥ÂÂ³Ã¨Â¾Â¹Ã©ËœÂ´Ã¥Â½Â±*/
+    0px 10px 15px #034c6a inset;
+    border: 1px solid #034c6a;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 25px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.box11 {
+    width: 400px;
+}
+
+.box12 {
+    width: 100%;
+}
+
+.box13 {
+    width: 400px;
+}
+
+#map_div {
+    width: 96%;
+    height: 94%;
+}
+
+.div_any_title {
+    background-color: #034c6a;
+    border-radius: 18px;
+    position: absolute;
+    height: 35px;
+    width: 60%;
+    top: -15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    left: 20%;
+    line-height: 35px;
+    text-align: center;
+}
+
+.div_any_title img {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
